@@ -1,4 +1,4 @@
-# 1day-study
+<img width="1357" height="720" alt="image" src="https://github.com/user-attachments/assets/32ffefe8-bb5e-4598-ab66-d96a2ad78708" /># 1day-study
 
 ## 표준프레임워크 1DAY 스터디 (1st)
 
@@ -127,6 +127,9 @@ https://www.warp.dev/download
 ## AI 로 개발된 서비스는 
 
 ![](images/slide14_img1.png)
+
+<img width="1357" height="720" alt="image" src="https://github.com/user-attachments/assets/61af5e57-69b4-4cab-b13b-ab03ac16c3b5" />
+
 
 ### AI 시대의 개발
 

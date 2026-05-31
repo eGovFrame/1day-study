@@ -1,9 +1,5 @@
 # 1day-study
 
-# 1Day Study
-
----
-
 ## 표준프레임워크 1DAY 스터디 (1st)
 
 ### 일단

@@ -31,38 +31,25 @@ Controller → Service → DAO
 
 ### Spring 생태계 한번에 몰아보기
 
-Spring  
-SpringSpring Boot Spring AI
-Spring Boot 
-Spring AI 
-구조를 잡아주는 뼈대 - Java 기반 애플리케이션 프레임워크 핵심: IoC / DI, AOP, MVC 엔터프라이즈 구조 표준 제공
-Spring 을 쉽게 쓰게 해주는 도구 - Spring 설정을 자동화 내장 서버 (Tomcat 등) 빠른 실행 & 개발 생산성 향상
-AI를 Spring 안으로 가져온 것 - LLM(OpenAI, Ollama 등) 연동 지원 
-Chat, Embedding, RAG 기능 제공 
-기존 Spring 구조 안에 AI 통합 
+Spring Framework - Spring Boot - Spring AI <br>
+
+Spring Framework  - 구조를 잡아주는 뼈대 - Java 기반 애플리케이션 프레임워크 핵심: IoC / DI, AOP, MVC 엔터프라이즈 구조 표준 제공 <br>
+Spring Boot - Spring 을 쉽게 쓰게 해주는 도구 - Spring 설정을 자동화 내장 서버 (Tomcat 등) 빠른 실행 & 개발 생산성 향상 <br>
+Spring AI - AI를 Spring 안으로 가져온 것 - LLM(OpenAI, Ollama 등) 연동 지원 <br>
+Chat, Embedding, RAG 기능 제공 <br>
+기존 Spring 구조 안에 AI 통합 <br>
 
 ---
 
 ### Spring 핵심개념 
 
-IoC (Inversion of Control)
-DI  (Dependency Injection)
-AOP (Aspect Oriented Programming)
-Configuration
+IoC (Inversion of Control) - 제어의 역전, 만들지 않고 주입받는다 - 객체 생성/관리를 Spring이 담당 개발자는 사용만 <br>
+DI  (Dependency Injection) - 필요한 것은 알아서 넣어준다 – 필요한 객체를 자동으로 주입, @Autowired  <br>
+AOP (Aspect Oriented Programming) 공통 기능을 분리 (로그, 트랜잭션 등) 비즈니스 로직과 분리, 필요시점에 사용할 수 있도록  <br>
+Configuration - 애플리케이션 설정관리 - Bean 설정 및 환경 정의 @Configuration, application.yml<br>
 
-IoC (Inversion of Control)
 
-DI  (Dependency Injection)
-AOP (Aspect Oriented Programming)
-제어의 역전, 만들지 않고 주입받는다 - 객체 생성/관리를 Spring이 담당 개발자는 사용만
-필요한 것은 알아서 넣어준다 – 필요한 객체를 자동으로 주입, @Autowired 
-공통 기능을 분리 (로그, 트랜잭션 등) 비즈니스 로직과 분리, 필요시점에 사용할 수 있도록 
-Configuration
-애플리케이션 설정관리 - Bean 설정 및 환경 정의 @Configuration, application.yml
-
----
-
-### Spring 
+### Spring Framework 
 
 ![](images/slide07_img1.png)
 

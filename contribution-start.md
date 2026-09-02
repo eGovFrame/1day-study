@@ -1,7 +1,8 @@
 ### 전자정부 표준프레임워크 GitHub Contribution 시작 가이드
 
-Git을 처음 사용해도 괜찮아요.
-이번 목표는 Git 명령어를 모두 외우는 것이 아닙니다. 직접 문서를 수정하고 **표준프레임워크에 Pull Request(PR)를 보내는 것**이 목표입니다.
+Git을 처음 사용해도 괜찮아요. <br>
+이번 목표는 Git 명령어를 모두 외우는 것이 아닙니다. <br>
+직접 문서를 수정하고 **표준프레임워크에 Pull Request(PR)를 보내는 것**이 목표입니다.
 
 
 ## 전체 흐름
@@ -20,21 +21,21 @@ Git을 처음 사용해도 괜찮아요.
 11. Pull Request 보내기 → 표준프레임워크 원본 Repository
 
 ---
-
-# 기본 개념
-
 ### GitHub이란?
-
-GitHub은 여러 사람이 소스코드와 문서를 함께 관리하고 협업하는 공간입니다.
-
+GitHub은 여러 사람이 소스코드와 문서를 함께 관리하고 협업하는 공간입니다.<br>
 이번에는 표준프레임워크 문서를 수정하고, 그 결과를 GitHub를 통해 기여해 봅니다.
+
+---
+
+### 작업은
+개발가이드를 https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:%EA%B3%B5%ED%86%B5%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EA%B0%80%EC%9D%B4%EB%93%9C <br>
+github repository - https://github.com/eGovFramework/egovframe-docs 에 markdown 변환 / 보완 / 현행화 작업하는 것 
 
 ---
 
 ## 1. GitHub 계정 만들기
 
 먼저 GitHub에서 계정을 만들고 로그인합니다.
-
 가입이 끝나면 나만의 GitHub 주소가 생깁니다.
 
 ```text
@@ -120,7 +121,7 @@ Fork한 Repository에서 주소를 복사한 후 터미널에서 실행합니다
 git clone https://github.com/내아이디/egovframe-docs.git
 ```
 
-폴더로 이동합니다.
+폴더로 이동.
 
 ```bash
 cd egovframe-docs
@@ -161,13 +162,11 @@ https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:공통컴포넌트가
 ```
 
 AI가 추천한 대상 중 하나를 골라 작업을 시작합니다.
-
 처음이라면 너무 큰 작업보다는 **작은 문서 하나를 제대로 완성하는 것**을 추천합니다.
 
 ---
 
 ## 7. 문서 수정하기
-
 바로 "수정해줘"라고 하기보다는 먼저 무엇을 수정할지 확인해 보는 것이 좋습니다.
 
 먼저 AI에게 다음 내용을 확인합니다.
@@ -264,36 +263,7 @@ eGovFramework/egovframe-docs
 
 어떤 내용을 수정했는지 간단하게 작성하고 Pull Request를 생성합니다.
 
-그리고 끝! 🎉
-
----
-
-# 전체 흐름 다시 보기
-
-```text
-GitHub 계정 만들기
-        ↓
-VS Code + Git + Codex 준비
-        ↓
-Git 사용자 정보 설정
-        ↓
-Repository Fork
-        ↓
-내 PC로 Clone
-        ↓
-AI로 Contribution 대상 찾기
-        ↓
-문서 수정
-        ↓
-변경사항 확인
-        ↓
-git add
-        ↓
-git commit
-        ↓
-git push
-        ↓
-Pull Request
+그리고 끝! 
         ↓
 🎉 첫 번째 Contribution 완료!
 ```

@@ -88,28 +88,6 @@ Qwen / 알리바바가 주도하여 개발한 글로벌 수준의 오픈/상용
 
 ---
 
-### AI 개발도구
-![](images/slide09_img1.png)
-
-![](images/slide09_img2.png)
-
-Cursor
-https://cursor.com/ko/home
-
-![](images/slide09_img3.png)
-
-Claude Code
-https://code.claude.com/docs/ko/quickstart
-
-![](images/slide09_img4.png){width=100}
-
-Warp
-https://www.warp.dev/download
-
-![](images/slide09_img5.png)
-
----
-
 ### AI 적용/활용
 현장에서는 아래의 업무들에 활용하고자 함
 
